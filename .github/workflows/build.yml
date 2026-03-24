@@ -21,6 +21,8 @@ jobs:
             zip \
             unzip \
             openjdk-11-jdk \
+            wget \
+            tar \
             autoconf \
             libtool \
             pkg-config \
@@ -29,14 +31,29 @@ jobs:
             libffi-dev \
             libssl-dev
 
+      - name: Install Android SDK manually
+        run: |
+          mkdir -p $HOME/android-sdk
+          cd $HOME/android-sdk
+          wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+          unzip commandlinetools-linux-*.zip
+          mkdir cmdline-tools
+          mv cmdline-tools cmdline-tools/latest || true
+
+      - name: Set environment variables
+        run: |
+          echo "ANDROID_HOME=$HOME/android-sdk" >> $GITHUB_ENV
+          echo "PATH=$HOME/android-sdk/cmdline-tools/latest/bin:$PATH" >> $GITHUB_ENV
+
+      - name: Accept licenses and install SDK tools
+        run: |
+          yes | sdkmanager --licenses
+          sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
+
       - name: Install Python tools
         run: |
           pip install --upgrade pip
           pip install buildozer cython
-
-      - name: Accept licenses
-        run: |
-          yes | buildozer android update
 
       - name: Build APK
         run: |
