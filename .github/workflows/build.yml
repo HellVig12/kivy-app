@@ -37,8 +37,8 @@ jobs:
           cd $HOME/android-sdk
           wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
           unzip commandlinetools-linux-*.zip
-          mkdir cmdline-tools
-          mv cmdline-tools cmdline-tools/latest || true
+          mkdir -p cmdline-tools/latest
+          mv cmdline-tools/* cmdline-tools/latest/ || true
 
       - name: Set environment variables
         run: |
