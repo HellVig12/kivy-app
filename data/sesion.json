@@ -1,0 +1,12 @@
+{
+  "id": "8fa50d6f-eb48-4f5b-917c-01ca91d8b0a0",
+  "email": "santiagoe.hellvig@gmail.com",
+  "nombre": "santiagoe.hellvig",
+  "modo": "online",
+  "email_confirmado": true,
+  "tokens": {
+    "access_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjI2Y2I4NzA1LWFlYzktNGE1OC04ZWRiLWY0YTc2ZjRmOTE5NyIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3p4ZGpqaXVvdnBzbmZkYmtkYWFxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI4ZmE1MGQ2Zi1lYjQ4LTRmNWItOTE3Yy0wMWNhOTFkOGIwYTAiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzc0Mzc5NTQ0LCJpYXQiOjE3NzQzNzU5NDQsImVtYWlsIjoic2FudGlhZ29lLmhlbGx2aWdAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InNhbnRpYWdvZS5oZWxsdmlnQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmYXJtX25hbWUiOiJzaSIsIm93bmVyX25hbWUiOiJTYW50aWFnbyBIZWxsdmlnIiwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiI4ZmE1MGQ2Zi1lYjQ4LTRmNWItOTE3Yy0wMWNhOTFkOGIwYTAifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc3NDM3NTk0NH1dLCJzZXNzaW9uX2lkIjoiYTFkZjkzYTEtZWNlMy00ZmZlLWIxZjEtMjM0NmNhNWE5OGI5IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.Xx8fGmfan83aO1tlhzO9Cse1iUHxtn043vMsqbDvIaqSwCygK-jyf-5VttYKP4i5K-A1Ss9MGcVpMU4YonOr0A",
+    "refresh_token": "4dqhmr6w35ol"
+  },
+  "fecha_guardado": "2026-03-24T16:00:15.736286"
+}

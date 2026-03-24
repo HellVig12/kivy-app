@@ -1,0 +1,28 @@
+{
+  "3999jcjv": {
+    "nombre": "jere",
+    "edad": "23",
+    "raza": "negra",
+    "peso": "15",
+    "enfermedades": "Sin enfermedades",
+    "vacunas": "Sin vacunas",
+    "historial": [],
+    "pesajes": []
+  },
+  "cce019ca": {
+    "nombre": "memo",
+    "edad": "15",
+    "raza": "volskvagen",
+    "peso": "89",
+    "enfermedades": "67",
+    "vacunas": "67",
+    "historial": [],
+    "pesajes": [
+      {
+        "fecha": "2026-03-24",
+        "peso": "89",
+        "creado_en": "2026-03-24T00:32:36.631639"
+      }
+    ]
+  }
+}
