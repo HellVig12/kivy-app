@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: |
@@ -29,10 +29,14 @@ jobs:
             libffi-dev \
             libssl-dev
 
-      - name: Install Python
+      - name: Install Python tools
         run: |
           pip install --upgrade pip
           pip install buildozer cython
+
+      - name: Accept licenses
+        run: |
+          yes | buildozer android update
 
       - name: Build APK
         run: |
