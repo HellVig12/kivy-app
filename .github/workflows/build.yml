@@ -20,7 +20,7 @@ jobs:
             git \
             zip \
             unzip \
-            openjdk-11-jdk \
+            openjdk-17-jdk \
             wget \
             tar \
             autoconf \
